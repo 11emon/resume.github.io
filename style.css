@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  user-select: none;
+}
+
+.color {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e6db17;
+  border-radius: 8px;
+  min-height: 70vh;
+  margin-bottom: 40px;
+}
+.color p {
+  color: gray;
+}
+
+.color img {
+  border-radius: 50%;
+  padding: 10px;
+  margin: 25px;
+ 
+  border: 2px dotted black;
+}
+
+
+.social-icons i {
+   padding: 10px;
+   margin: 20px;
+   transition: .2s;
+}
+.social-icons i:hover{
+  color: white;
+}
+
+
+
+.about {
+  margin-top: 50px;
+  margin: 7px;
+}
+
+.about h2{
+  color: #453e3e;
+  margin-bottom: 30px;
+}
+.about h4{
+  font-weight: lighter;
+}
+.about p{
+  font-weight: 400;
+}
+.btn {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  background: #e6db17;
+}
+.btn:hover {
+  color: #fff;
+  background: danger;
+}
+
+
+
+
+.personal {
+  margin-top: 50px;
+  margin: 7px;
+}
+
+.m-information p{
+  margin: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+.Language {
+  padding-top: 30px;
+  margin: 7px;
+}
+
+
+.circle div {
+  height: 8px;
+  width: 8px;
+  background: #ff1919;
+  border-radius: 50%;
+  margin: 5px;
+}
+.circle{
+  display: flex;
+}
+
+.Language h2{
+  margin-top: 30px;
+}
+
+.circle div:nth-child(10),
+.circle div:nth-child(9),
+.circle div:nth-child(8){
+  background: gray;
+}
+
+.circle2 div:nth-child(6),
+.circle2 div:nth-child(7),
+.circle2 div:nth-child(8),
+.circle2 div:nth-child(9),
+.circle2 div:nth-child(10){
+  background: gray;
+}
+
+.circle3 div:nth-child(10),
+.circle3 div:nth-child(9),
+.circle3 div:nth-child(8){
+  background: #ff1919;
+}
+
+.navbar {
+  position: fixed !important;
+  width: 100%;
+}
+.navbar-brand{
+font-family: 'Viaoda Libre', cursive;
+font-size: 30px;
+}
