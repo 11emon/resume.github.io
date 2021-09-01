@@ -35,6 +35,13 @@
    margin: 20px;
    transition: .2s;
 }
+
+.social-icons a {
+   text-decoration: none;
+  
+}
+
+
 .social-icons i:hover{
   color: white;
 }
