@@ -1,0 +1,329 @@
+
+/* Tablet Screen */
+@media only screen and (max-width: 720px) {
+        .main-nav {
+            position: absolute;
+            top: 18%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            left: 50%;
+            width: 100%;
+            background: rgb(255, 253, 253);
+            transform: translate(-50%,-50%);
+            display: none;
+            color: #000;
+          
+        }
+
+        .container img{
+            display: none;
+        }
+    
+        .container {
+            background-image: url(../images/my\ photo.png);
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+
+        }
+
+
+        
+         .hero-text p {
+            width: 65%;
+        }
+
+        .bars .fa-bars {
+            display: block;
+            font-size: 30px;    
+            cursor: pointer;
+            position: fixed;
+            top: 2%;
+        }
+
+
+
+
+        /*Services section*/
+
+        .content-box {
+            width: 90%;
+            left: 5%;
+        }
+
+
+
+         /*Project section*/
+
+
+         .pro-content {
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 50px;
+            justify-content: center;
+            align-items: center;
+            width: 75%;
+            height: 100vh;
+            
+        }
+
+        .project{
+            height: 140vh;
+        }
+
+
+
+
+         /*Form section*/
+
+
+         .f-content {
+            width: 100%;
+            height: 70vh;
+           
+            position: absolute;
+            left: 15%;
+        }
+
+        .card-1 {
+         display: none;
+        }
+
+        .card-2 {
+            background: #2BAE66FF;
+            border-radius: 10px;
+            width: 60%;
+            height: 60%;
+            position: absolute;
+            margin: auto;
+            top: 50%;
+            left:35%;
+            transform: translate(-50%,-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+         /*Footer section*/
+        
+        
+         .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+       
+}
+
+
+
+
+@media only screen and (max-width: 520px){
+    .menus ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+    }
+
+
+    .menus ul li {
+    
+        cursor: pointer;
+        margin: 10px;
+    }
+
+
+    .bars .fa-bars {
+        display: block;
+        font-size: 30px;    
+        cursor: pointer;
+        position: fixed;
+        top: 2%;
+    }
+
+
+    .pro-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        
+       
+        
+    }
+    
+
+    .image img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        opacity: 50%;
+    }
+
+    .image {
+        height: 300px;
+        width: 180px;
+        
+    }
+
+    .image h3 {
+       font-size: 12px;
+       letter-spacing: 2px;
+       font-weight: lighter;
+    }
+    
+
+
+
+
+
+
+
+    .form-section form input {
+        width: 200px;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+
+    .form-section form textarea {
+        width: 200px;
+       
+        margin: 10px;
+    }
+
+    .form-section form input::placeholder {
+        font-size: 11px;
+        
+        
+    }
+
+
+    .form-section form button {
+        padding: 5px 10px;
+        outline: none;
+        background: rgb(94, 153, 104);
+    }
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 360px) {
+    .bars .fa-bars {
+        position: absolute;
+        right: 5%;
+        top: 1.5%;
+        color: #000;
+    }
+
+
+    .main-nav {
+        position: absolute;
+        top: 23%;
+        text-align: center;
+    }
+
+    .banner {
+        position: absolute;
+        top: -15%;
+    }
+
+
+
+    .content-box {
+        height: 140vh;
+        position: absolute;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .header h1 {
+        margin: 0;
+        text-align: center;
+        padding: 0;
+
+    }
+
+
+
+    #service {
+        min-height: 200vh;
+    }
+
+
+
+
+    .pro-title h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pro-content {
+        display: grid;
+        grid-template-columns: auto;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    .project{
+        padding: 0;
+    }
+
+    .con {
+        margin: 0;
+    }
+
+
+    .contact {
+        height: 200vh;
+    }
+
+    .pro-3,
+    .pro-4,
+    .pro-5,
+    .pro-6 {
+        display: none;
+    }
+
+
+
+
+    .contact {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+
+    .footer {
+        height: 60vh;
+    }
+  
+ 
+    .main-footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
